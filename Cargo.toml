@@ -10,9 +10,6 @@ description = "General purpose library for using and interoperating with Bitcoin
 keywords = [ "crypto", "bitcoin" ]
 readme = "README.md"
 
-[patch.crates-io]
-secp256k1 = {git="https://github.com/sapio-lang/rust-secp256k1.git", branch="sapio-lang"}
-
 [features]
 default = [ "secp-recovery" ]
 base64 = [ "base64-compat" ]
